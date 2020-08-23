@@ -27,6 +27,9 @@ func calculateSum(input ...int) (int, float64) {
 	return sum, average
 }
 
+//This is wrong, as the variadic argument should be the final argument
+//func invalidFunction(input ...int, s string)
+
 func main() {
 	r1, r2 := calculateSum(1, 2, 3, 4, 5, 6, 7, 8, 9)
 
